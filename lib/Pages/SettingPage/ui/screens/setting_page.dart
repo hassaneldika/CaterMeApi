@@ -1,6 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:cater_me_api/Pages/AddressPage/ui/screens/address_page.dart';
+import 'package:cater_me_api/Pages/FriendPage/ui/screens/friend_page.dart';
 import 'package:cater_me_api/Pages/NotificationPage/ui/screens/notification_page.dart';
 import 'package:cater_me_api/Pages/OccassionPage/ui/screens/occassion_page.dart';
 import 'package:cater_me_api/Pages/OrderPage/ui/screens/order_page.dart';
@@ -179,10 +180,10 @@ class _SettingPageState extends State<SettingPage> {
                     width: MediaQuery.of(context).size.width,
                     child: widgetBody(
                         context, 'Friends', "assets/images/Icon awesome-user-friends.png", () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //         builder: (context) => const FriendsInfo()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const FriendPage()));
                     },
                         const Divider(
                           height: 1,
