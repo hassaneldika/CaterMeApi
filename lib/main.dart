@@ -1,8 +1,6 @@
 import 'package:cater_me_api/AuthenticationPage/LoginPage/repository/login_repo.dart';
 import 'package:cater_me_api/AuthenticationPage/LoginPage/state_manager/login_bloc.dart';
 import 'package:cater_me_api/AuthenticationPage/LoginPage/ui/screens/login_page.dart';
-import 'package:cater_me_api/AuthenticationPage/SignupPage/repository/signup_repo.dart';
-import 'package:cater_me_api/AuthenticationPage/SignupPage/state_manager/signup_bloc.dart';
 import 'package:cater_me_api/Pages/HomePage/state_manager/blocs/user/user_bloc.dart';
 import 'package:cater_me_api/Pages/HomePage/repository/user_repo.dart';
 import 'package:flutter/material.dart';
