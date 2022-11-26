@@ -1,5 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api
 
+import 'package:cater_me_api/Pages/AddressPage/ui/screens/address_page.dart';
 import 'package:cater_me_api/Pages/NotificationPage/ui/screens/notification_page.dart';
 import 'package:cater_me_api/Pages/OccassionPage/ui/screens/occassion_page.dart';
 import 'package:cater_me_api/Pages/OrderPage/ui/screens/order_page.dart';
@@ -157,11 +158,11 @@ class _SettingPageState extends State<SettingPage> {
                     child: widgetBody(
                         context, 'Addresses', "assets/images/Icon material-location-on.png",
                         () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) => const AddressesInfo(),
-                      //     ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const AddressPage(),
+                          ));
                     },
                         const Divider(
                           height: 1,
