@@ -1,7 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:cater_me_api/Pages/FriendPage/ui/widgets/widget_image_List_view_card.dart';
-import 'package:cater_me_api/Pages/OrderPage/ui/widgets/widget_list_view_card.dart';
+import 'package:cater_me_api/Pages/FriendPage/ui/widgets/widget_image_list_view_card.dart';
 import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_appbar.dart';
 import 'package:flutter/material.dart';
 
