@@ -1,5 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api
 
+import 'package:flutter/material.dart';
+
 import 'package:cater_me_api/AuthenticationPage/LoginPage/ui/screens/login_page.dart';
 import 'package:cater_me_api/Pages/AddressPage/ui/screens/address_page.dart';
 import 'package:cater_me_api/Pages/FriendPage/ui/screens/friend_page.dart';
@@ -8,9 +10,6 @@ import 'package:cater_me_api/Pages/OccassionPage/ui/screens/occassion_page.dart'
 import 'package:cater_me_api/Pages/OrderPage/ui/screens/order_page.dart';
 import 'package:cater_me_api/Pages/PaymentPage/ui/screens/payment_page.dart';
 import 'package:cater_me_api/Pages/ProfilePage/ui/screens/profile_page.dart';
-import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_bottom_sheet.dart';
-import 'package:flutter/material.dart';
-
 import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_appbar.dart';
 import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_body.dart';
 import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_top.dart';
