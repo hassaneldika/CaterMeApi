@@ -5,6 +5,7 @@ import 'package:cater_me_api/Pages/FriendPage/ui/screens/friend_page.dart';
 import 'package:cater_me_api/Pages/NotificationPage/ui/screens/notification_page.dart';
 import 'package:cater_me_api/Pages/OccassionPage/ui/screens/occassion_page.dart';
 import 'package:cater_me_api/Pages/OrderPage/ui/screens/order_page.dart';
+import 'package:cater_me_api/Pages/PaymentPage/ui/screens/payment_page.dart';
 import 'package:cater_me_api/Pages/ProfilePage/ui/screens/profile_page.dart';
 import 'package:flutter/material.dart';
 
@@ -200,11 +201,11 @@ class _SettingPageState extends State<SettingPage> {
                     width: MediaQuery.of(context).size.width,
                     child: widgetBody(context, 'Payment method',
                         "assets/images/Icon awesome-credit-card.png", () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) => const PaymentInfo(),
-                      //     ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const PaymentPage(),
+                          ));
                     },
                         const Divider(
                           height: 1,
@@ -412,24 +413,6 @@ class _SettingPageState extends State<SettingPage> {
                     width: MediaQuery.of(context).size.width,
                     child: widgetBody(
                         context,
-                        'Terms',
-                        "assets/images/terms-and-conditions.png",
-                        () {},
-                        const Divider(
-                          height: 1,
-                          indent: 1,
-                          endIndent: 0,
-                          color: Colors.grey,
-                        ),
-                        null,
-                        14,
-                        null),
-                  ),
-                  SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.06,
-                    width: MediaQuery.of(context).size.width,
-                    child: widgetBody(
-                        context,
                         'Language',
                         "assets/images/EN.png",
                         () {},
@@ -450,6 +433,24 @@ class _SettingPageState extends State<SettingPage> {
                         context,
                         'Mode',
                         "assets/images/Icon feather-sun.png",
+                        () {},
+                        const Divider(
+                          height: 1,
+                          indent: 1,
+                          endIndent: 0,
+                          color: Colors.grey,
+                        ),
+                        null,
+                        14,
+                        null),
+                  ),
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.06,
+                    width: MediaQuery.of(context).size.width,
+                    child: widgetBody(
+                        context,
+                        'Terms',
+                        "assets/images/terms-and-conditions.png",
                         () {},
                         const Divider(
                           height: 1,
