@@ -3,6 +3,7 @@
 import 'package:cater_me_api/Pages/NotificationPage/ui/screens/notification_page.dart';
 import 'package:cater_me_api/Pages/OccassionPage/ui/screens/occassion_page.dart';
 import 'package:cater_me_api/Pages/OrderPage/ui/screens/order_page.dart';
+import 'package:cater_me_api/Pages/ProfilePage/ui/screens/profile_page.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cater_me_api/Pages/SettingPage/ui/widgets/widget_appbar.dart';
@@ -133,11 +134,11 @@ class _SettingPageState extends State<SettingPage> {
                       child: widgetBody(
                           context, 'Profile', "assets/images/Icon material-account-circle.png",
                           () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => const Profile(),
-                        //     ));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const ProfilePage(),
+                            ));
                       },
                           const Divider(
                             height: 1,
